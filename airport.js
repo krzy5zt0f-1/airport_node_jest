@@ -6,7 +6,7 @@ class Airport {
     }
 
     land(plane) {
-        if (plane.capacity < 301 && plane instanceof Plane){
+        if (plane.capacity < 301 && plane.isFlying()){
             this.hanger.push(plane);
         }
     }

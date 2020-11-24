@@ -6,6 +6,10 @@ class Plane {
     get capacity() {
         return this._capacity;
     }
+
+    isFlying() {
+        return true;
+    }
 }
 
 module.exports = Plane;
